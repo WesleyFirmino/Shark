@@ -79,6 +79,7 @@
     <Compile Include="Controllers\Login.cs" />
     <Compile Include="Browser.cs" />
     <Compile Include="Models\Excel.cs" />
+    <Compile Include="Models\Preenchimento.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Task\Executor.cs" />
   </ItemGroup>

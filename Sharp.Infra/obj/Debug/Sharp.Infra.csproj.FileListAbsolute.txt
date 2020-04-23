@@ -1,0 +1,9 @@
+C:\Users\cc1140.CRESPO\source\repos\Shark\Sharp.Infra\bin\Debug\Sharp.Infra.dll.config
+C:\Users\cc1140.CRESPO\source\repos\Shark\Sharp.Infra\bin\Debug\Sharp.Infra.dll
+C:\Users\cc1140.CRESPO\source\repos\Shark\Sharp.Infra\bin\Debug\Sharp.Infra.pdb
+C:\Users\cc1140.CRESPO\source\repos\Shark\Sharp.Infra\bin\Debug\MySql.Data.dll
+C:\Users\cc1140.CRESPO\source\repos\Shark\Sharp.Infra\obj\Debug\Sharp.Infra.csprojAssemblyReference.cache
+C:\Users\cc1140.CRESPO\source\repos\Shark\Sharp.Infra\obj\Debug\Sharp.Infra.csproj.CoreCompileInputs.cache
+C:\Users\cc1140.CRESPO\source\repos\Shark\Sharp.Infra\obj\Debug\Sharp.Infra.csproj.CopyComplete
+C:\Users\cc1140.CRESPO\source\repos\Shark\Sharp.Infra\obj\Debug\Sharp.Infra.dll
+C:\Users\cc1140.CRESPO\source\repos\Shark\Sharp.Infra\obj\Debug\Sharp.Infra.pdb

@@ -1,0 +1,15 @@
+﻿<Window x:Class="Sharp.UI.Views.ShellView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Sharp.UI.Views"
+        mc:Ignorable="d" FontSize="20"
+        Title="SHARP" Height="250" Width="800" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <TextBlock Margin="10,10,517,167">INSIRA A PLANILHA</TextBlock>
+        <TextBox x:Name="Way" Text="{Binding Path=Way}" Margin="10,57,190,124"/>
+        <Button x:Name="OpenExcel" Margin="625,56,36,123">SELECIONAR</Button>
+        <Button x:Name="BeginTask" Margin="625,150,30,10">INICIAR</Button>
+    </Grid>
+</Window>

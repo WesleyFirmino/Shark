@@ -4,9 +4,9 @@ using WatiN.Core;
 
 namespace Sharp.Domain.Controllers
 {
-    public class Login : Browser
+    public class Login : Navigator
     {
-        public static void MakeLogin()
+        public void MakeLogin()
         {
             try
             {

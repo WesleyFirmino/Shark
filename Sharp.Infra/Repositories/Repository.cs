@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using MySql.Data.MySqlClient;
+using System.Data;
 
 namespace Sharp.Infra.Repositories
 {
@@ -26,6 +27,24 @@ namespace Sharp.Infra.Repositories
                     {
                         conection.Open();
 
+                        using (var reader = command.ExecuteReader(CommandBehavior.CloseConnection))
+                        {
+                            if (reader.HasRows)
+                            {
+                                if (reader.Read())
+                                {
+                                    do
+                                    {
+                                        listUser.Add(new UserList
+                                        {
+                                            User = reader["Usuario"].ToString(),
+                                            Password = reader["Senha"].ToString()
+                                        });
+
+                                    } while (reader.Read());                                    
+                                }
+                            }
+                        }
 
                     }
                     catch (Exception)
